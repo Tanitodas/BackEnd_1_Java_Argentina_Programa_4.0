@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Aplicacion" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Ejercicio03Practico" />
+    <orderEntry type="module" module-name="Ejercicio2Extra" />
+    <orderEntry type="module" module-name="Ejercicio01Extra1" />
+    <orderEntry type="module" module-name="Ejercicio04Practico" />
+    <orderEntry type="module" module-name="Ejercicio01Practico" />
+    <orderEntry type="module" module-name="Ejercicio05Practico" />
+    <orderEntry type="module" module-name="Ejercicio02Practico" />
+    <orderEntry type="module" module-name="Ejercicio06Practico" />
+  </component>
+</module>
