@@ -51,7 +51,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Por ultimo encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
 
-## ¿Quiere tener este repositorio en su dispositivo?
+## 📝¿Quiere tener este repositorio en su dispositivo?📝
 
 Para clonar este repositorio en tu computadora, sigue estos pasos:
 
