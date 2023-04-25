@@ -1,7 +1,7 @@
 # ¿Que se puede encontrar en este Repositorio?
----
+
 ## Estructura de Carpetas 🗂 🗂
----
+
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
 
 + 📂 *`'01_Introduccion_a_POO_P1'`*:
