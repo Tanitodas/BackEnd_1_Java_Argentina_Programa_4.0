@@ -60,10 +60,10 @@ Para clonar este repositorio en tu computadora, sigue estos pasos:
 2. Copia la URL que aparece en la ventana emergente.
 
 3. Abre la terminal de tu computadora.
+    
+    3.1. Otra opcion es abrir una terminal en una carpeta vacia y  seguir los siguientes pasos, exceptuando el paso 4.
 
 4. Navega hasta el directorio donde deseas clonar el repositorio.
-
-    4.1. Otra opcion es abrir una terminal en una carpeta vacio y  seguir los siguientes pasos.
 
 5. Escribe el siguiente comando en la terminal y pega la URL que copiaste en el paso 3:
 
