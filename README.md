@@ -5,18 +5,18 @@ En este repositorio podemos encontrar una recopilacion de ejercicios propuestos 
 1. **Lógica y Algoritmos.**
 
 2. **Programacion:**
-    + *BackEnd.*
+    2.1. *BackEnd.*
         + BackEnd 1 : Introduccion a Java y Programacion Orientada a Objetos.
         + BackEnd 2 : Colecciones , Relaciones entre clases , Herencia y Manejo de Excepciones.
-    + *FrontEnd*
+    2.2. *FrontEnd*
         + HTML
         + CSS
         + JavaScript
         + Node.js
       
 3. **Bases de datos:**
-    + MySQL
-    + Conexion Java a Base de datos : JDBC y JPA
+    3.1. MySQL
+    3.2. Conexion Java a Base de datos : JDBC y JPA
 
 En este repositorio veremos almacenados los ejercicios propuestos por la institucion que impartio el curso, la cual es "EGG Cooperation", como mencionamos antes.
 
