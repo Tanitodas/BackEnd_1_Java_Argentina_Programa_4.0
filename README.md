@@ -23,6 +23,9 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
 
 Mas especificamente, en este repositorio almacenó los ejercicios corresponientes a BackEnd 1, tanto su enunciado como la resolucion particular a la que llegue.
 
+// imagen
+[![ARGENTINA-PROGRAMA-4-0.jpg](https://i.postimg.cc/RV6n50vG/ARGENTINA-PROGRAMA-4-0.jpg)](https://postimg.cc/jLTjytwJ)
+
 ## Estructura de Carpetas 🗂 🗂
 
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
