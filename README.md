@@ -21,7 +21,7 @@ En este repositorio podemos encontrar una recopilacion de ejercicios propuestos 
 
 En este repositorio veremos almacenados los ejercicios propuestos por la institucion que impartio el curso, la cual es "EGG Cooperation", como mencionamos antes.
 
-Mas especificamente, en este repositorio almacenó los ejercicios corresponientes a BackEnd 1, tanto su enunciado como la resolucion particular a la que llegue.
+Mas especificamente, en este repositorio almaceno los ejercicios corresponientes a BackEnd 1, tanto su enunciado como la resolucion particular a la que llegue.
 
 [![ARGENTINA-PROGRAMA-4-0.png](https://i.postimg.cc/4yT4DXP2/ARGENTINA-PROGRAMA-4-0.png)](https://postimg.cc/k6fd83kW)
 
