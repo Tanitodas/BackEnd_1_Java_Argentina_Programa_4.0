@@ -2,17 +2,19 @@
 
 En este repositorio podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se impartieron lecciones , a grandes rasgos, acerca de:
 
-+ Lógica y Algoritmos.
-+ Programacion.
-    + BackEnd.
+1. **Lógica y Algoritmos.**
+
+2. **Programacion:**
+    + *BackEnd.*
         + BackEnd 1 : Introduccion a Java y Programacion Orientada a Objetos.
         + BackEnd 2 : Colecciones , Relaciones entre clases , Herencia y Manejo de Excepciones.
-    + FrontEnd
+    + *FrontEnd*
         + HTML
         + CSS
         + JavaScript
         + Node.js
-+ Bases de datos.
+      
+3. **Bases de datos:**
     + MySQL
     + Conexion Java a Base de datos : JDBC y JPA
 
