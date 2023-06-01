@@ -5,10 +5,11 @@ En este repositorio podemos encontrar una recopilacion de ejercicios propuestos 
 1. **Lógica y Algoritmos.**
 
 2. **Programacion:**
-   + 2.1. *BackEnd.*
+   + 2.1. *BackEnd :*
         + BackEnd 1 : Introduccion a Java y Programacion Orientada a Objetos.
         + BackEnd 2 : Colecciones , Relaciones entre clases , Herencia y Manejo de Excepciones.
-   + 2.2. *FrontEnd*
+       
+   + 2.2. *FrontEnd :*
         + HTML
         + CSS
         + JavaScript
