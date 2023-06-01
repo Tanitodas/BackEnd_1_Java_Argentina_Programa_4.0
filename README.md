@@ -1,13 +1,24 @@
 # 🔎¿Que se puede encontrar en este Repositorio?🔍
 
-En este repo podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se va a impartir lecciones acerca de:
-+ Lógica y Algoritmos.
-+ Java ( BackEnd 1 y BackEnd 2 ).
-+ Bases de datos estructuradas (SQL).
-+ Relacion entre Java y Bases de datos.
-+ FrontEnd ( HTML , CSS , JavaScript y , por ultimo, la utilizacion del framework REACT ).
+En este repositorio podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se impartieron lecciones , a grandes rasgos, acerca de:
 
-Concretamente en este repositorio veremos almacenados los ejercicios propuestos por EGG y su resolucion particular en mi caso. Ya que un mismo ejercicio se puede resolver de distintas maneras.
++ Lógica y Algoritmos.
++ Programacion.
+    + BackEnd.
+        + BackEnd 1 : Introduccion a Java y Programacion Orientada a Objetos.
+        + BackEnd 2 : Colecciones , Relaciones entre clases , Herencia y Manejo de Excepciones.
+    + FrontEnd
+        + HTML
+        + CSS
+        + JavaScript
+        + Node.js
++ Bases de datos.
+    + MySQL
+    + Conexion Java a Base de datos : JDBC y JPA
+
+En este repositorio veremos almacenados los ejercicios propuestos por la institucion que impartio el curso, la cual es "EGG Cooperation", como mencionamos antes.
+
+Mas especificamente, en este repositorio almacenó los ejercicios corresponientes a BackEnd 1, tanto su enunciado como la resolucion particular a la que llegue.
 
 ## Estructura de Carpetas 🗂 🗂
 
