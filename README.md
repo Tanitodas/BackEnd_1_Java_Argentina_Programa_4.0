@@ -1,5 +1,14 @@
 # 🔎¿Que se puede encontrar en este Repositorio?🔍
 
+En este repo podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se va a impartir lecciones acerca de:
++ Lógica y Algoritmos.
++ Java ( BackEnd 1 y BackEnd 2 ).
++ Bases de datos estructuradas (SQL).
++ Relacion entre Java y Bases de datos.
++ FrontEnd ( HTML , CSS , JavaScript y , por ultimo, la utilizacion del framework REACT ).
+
+Concretamente en este repositorio veremos almacenados los ejercicios propuestos por EGG y su resolucion particular en mi caso. Ya que un mismo ejercicio se puede resolver de distintas maneras.
+
 ## Estructura de Carpetas 🗂 🗂
 
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
