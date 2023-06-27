@@ -88,7 +88,7 @@ public class AhorcadoService {
 
         public String encontradas( Ahorcado juego , String letra ) {
         
-            int contadorCoincidencia = 0;
+            int contadorCoincidencia = 0 ;
             
             //  Creamos un vector auxiliar para asignar los valores del vector de la 'palabraBuscar'.
             String[] vectorAux = juego.getPalabraBuscar();
@@ -104,7 +104,7 @@ public class AhorcadoService {
 
             }
 
-            juego.setCantidadDeLetrasEncontradas( contadorCoincidencia + contadorCoincidencia );
+            juego.setCantidadDeLetrasEncontradas( juego.getCantidadDeLetrasEncontradas() + contadorCoincidencia );
             juego.setCantidadDeLetrasRestantes( juego.getLongitudPalabra() - juego.getCantidadDeLetrasEncontradas() );
 
             //  Convertimos el 'int' a 'String'
@@ -127,7 +127,7 @@ public class AhorcadoService {
 
         public void juego( ) {
 
-            int contadorVueltas = 0;
+            int contadorErrores = 0;
             
             Ahorcado nuevoAhorcado = crearJuego();
 
@@ -142,13 +142,30 @@ public class AhorcadoService {
 
                 System.out.println( " Mensaje : " + buscarLetra(nuevoAhorcado, letra) );
 
+                //  Este if lo agregamos para que el contador de errores funcione solo cuando la letra ingresada
+                //  no se encuentre en el arreglo que almacena la palabra secreta. Contabilizando un error del jugador
+                //  restandole asi un intento
+                if ( buscarLetra(nuevoAhorcado, letra).equalsIgnoreCase("La letra NO se encuentra en la palabra") ) {
+                    contadorErrores++;
+                }
+
                 System.out.println(" Numero de letras ( 'encontradas' ; 'faltantes' ) " + encontradas(nuevoAhorcado, letra) );
 
-                System.out.println(" Numero de intentos faltantes " + (intentos(nuevoAhorcado) - contadorVueltas) );
+                System.out.println(" Numero de intentos faltantes " + (intentos(nuevoAhorcado) - contadorErrores) );
+                
+            } while ( contadorErrores <= intentos(nuevoAhorcado) || nuevoAhorcado.getCantidadDeLetrasEncontradas() == nuevoAhorcado.getLongitudPalabra() );
 
-                contadorVueltas++;
+            if ( contadorErrores <= intentos(nuevoAhorcado) ) {
+                
+                System.out.println(" Supero la cantidad de intentos posibles :c ");
+                System.out.println(" Perdio. ");
 
-            } while ( contadorVueltas <= intentos(nuevoAhorcado) );
+            } else if ( nuevoAhorcado.getCantidadDeLetrasEncontradas() == nuevoAhorcado.getLongitudPalabra() ) {
+
+                System.out.println(" FELICITACIONES! GANASTE! ");
+                System.out.println(" Encontraste la palabra secreta! ");
+
+            }
 
         }
 

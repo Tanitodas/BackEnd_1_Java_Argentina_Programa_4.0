@@ -1,18 +1,34 @@
-## Getting Started
+## Ejercicio Nº 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crear una clase llamada *`'Libro'`* que contenga los siguientes atributos:
++ ISBN
++ Título
++ Autor
++ Número de páginas.
 
-The workspace contains two folders by default, where:
+Ademas debera contener un constructor con todos los atributos pasados por
+parámetro y un constructor vacío.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Crear un método para cargar un libro pidiendo los datos al usuario y luego informar mediante
+otro método el número de ISBN, el título, el autor del libro y el numero de páginas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estructura de Carpetas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-## Dependency Management
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Libro'`* y ver su resultado por consola.
+
+    + *Entidades* : Este paquete almacena la clase *`'Libro'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.

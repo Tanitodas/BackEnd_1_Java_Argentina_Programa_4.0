@@ -8,8 +8,8 @@ public class Ahorcado {
         
         private String[] palabraBuscar;
         private int longitudPalabra;
-        private int cantidadDeLetrasEncontradas;
-        private int cantidadDeLetrasRestantes;
+        private static int cantidadDeLetrasEncontradas = 0; // agregar comentario de palabra static
+        private static int cantidadDeLetrasRestantes = 0; // agregar comentario de palabra static
         private int cantidadDeIntentos;
 
     //  CONSTRUCTORES DE LA CLASE.
@@ -40,7 +40,7 @@ public class Ahorcado {
         }
 
         public void setCantidadDeLetrasEncontradas(int cantidadDeLetrasEncontradas) {
-            this.cantidadDeLetrasEncontradas = cantidadDeLetrasEncontradas;
+            Ahorcado.cantidadDeLetrasEncontradas = cantidadDeLetrasEncontradas; 
         }
 
         public int getCantidadDeIntentos() {
@@ -64,7 +64,7 @@ public class Ahorcado {
         }
     
         public void setCantidadDeLetrasRestantes(int cantidadDeLetrasRestantes) {
-            this.cantidadDeLetrasRestantes = cantidadDeLetrasRestantes;
+            Ahorcado.cantidadDeLetrasRestantes = cantidadDeLetrasRestantes; 
         }
             
     //  MÉTODO 'TO STRING'

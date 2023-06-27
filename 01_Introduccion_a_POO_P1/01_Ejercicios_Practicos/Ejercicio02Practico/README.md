@@ -1,18 +1,38 @@
-## Getting Started
+## Ejercicio Nº 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Declarar una clase llamada *`'Circunferencia'`* que tenga como atributo privado el radio
+de tipo real.
 
-The workspace contains two folders by default, where:
+A continuación, se deben crear los siguientes métodos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
++ a) Método constructor que inicialice el radio pasado como parámetro.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ b) Métodos get y set para el atributo radio de la clase Circunferencia.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
++ c) Método para `crearCircunferencia()`: que le pide el radio y lo guarda en el atributo
+     del objeto.
 
-## Dependency Management
++ d) Método `area()`: para calcular el área de la circunferencia (Area = π ∗ radio).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
++ e) Método `perimetro()`: para calcular el perímetro (Perimetro = 2 ∗ π ∗ radio).
+
+## Estructura de Carpetas
+
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
+
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
+
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Circunferencia'`* y ver su resultado por consola.
+
+    + *Entidades* : Este paquete almacena la clase *`'Circunferencia'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
