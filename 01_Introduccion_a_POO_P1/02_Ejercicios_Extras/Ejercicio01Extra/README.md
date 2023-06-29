@@ -1,18 +1,31 @@
-## Getting Started
+## Ejercicio Extra Nº 1
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Desarrollar una clase `Cancion` con los siguientes atributos:
+ + Titulo
+ + Autor.
 
-The workspace contains two folders by default, where:
+Se deberá definir además dos constructores: uno vacío que inicializa el titulo y el autor a cadenas
+vacías y otro que reciba como parámetros el titulo y el autor de la canción.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Se deberán además definir los métodos getters y setters correspondientes.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estructura de Carpetas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-## Dependency Management
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Libro'`* y ver su resultado por consola.
+
+    + *Entidades* : Este paquete almacena la clase *`'Cancion'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
