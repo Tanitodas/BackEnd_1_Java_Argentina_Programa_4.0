@@ -1,18 +1,27 @@
-## Getting Started
+## Ejercicio Nº 4
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crear una clase Rectángulo que modele rectángulos por medio de un atributo
+privado base y un atributo privado altura. La clase incluirá un método para crear el
+rectángulo con los datos del Rectángulo dados por el usuario. También incluirá un
+método para calcular la superficie del rectángulo y un método para calcular el
+perímetro del rectángulo. Por último, tendremos un método que dibujará el
+rectángulo mediante asteriscos usando la base y la altura. Se deberán además definir
+los métodos getters, setters y constructores correspondientes.
+Superficie = base * altura / Perímetro = (base + altura) * 2.
 
-The workspace contains two folders by default, where:
+## Estructura de Carpetas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Libro'`* y ver su resultado por consola.
 
-## Dependency Management
+    + *Entidades* : Este paquete almacena la clase *`'Rectangulo'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
