@@ -1,18 +1,27 @@
-## Getting Started
+## Ejercicio Extra Nº 4
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crea una clase "Cuenta" que tenga atributos como "saldo" y "titular".
+Luego, crea un método "retirar_dinero" que permita retirar una cantidad
+de dinero del saldo de la cuenta. Asegúrate de que el saldo nunca sea
+negativo después de realizar una transacción de retiro
 
-The workspace contains two folders by default, where:
+## Estructura de Carpetas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Estos paquetes son:
+  
+    + *Entidades* : Este paquete almacena la clase *`'Cuenta'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
-## Dependency Management
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
+
