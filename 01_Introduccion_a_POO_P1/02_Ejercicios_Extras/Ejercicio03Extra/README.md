@@ -20,8 +20,7 @@ Ellas son:
     <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
     Estos paquetes son:
-    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Libro'`* y ver su resultado por consola.
-
+  
     + *Entidades* : Este paquete almacena la clase *`'Cancion'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
