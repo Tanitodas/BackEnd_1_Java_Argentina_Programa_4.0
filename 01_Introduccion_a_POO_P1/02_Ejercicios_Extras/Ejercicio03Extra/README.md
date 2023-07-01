@@ -21,7 +21,7 @@ Ellas son:
 
     Estos paquetes son:
   
-    + *Entidades* : Este paquete almacena la clase *`'Cancion'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+    + *Entidades* : Este paquete almacena la clase *`'Juego'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
