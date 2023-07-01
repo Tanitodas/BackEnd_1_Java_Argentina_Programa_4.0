@@ -1,11 +1,13 @@
-## Ejercicio Extra Nº 4
+## Ejercicio Extra Nº 5
 
 ### *Enunciado:*
 
-Crea una clase "Cuenta" que tenga atributos como "saldo" y "titular".
-Luego, crea un método "retirar_dinero" que permita retirar una cantidad
-de dinero del saldo de la cuenta. Asegúrate de que el saldo nunca sea
-negativo después de realizar una transacción de retiro
+Crea una clase "Empleado" que tenga atributos como "nombre", "edad" y "salario".
+Luego, crea un método "calcular_aumento" que calcule el
+aumento salarial de un empleado en función de su edad y salario actual.
+El aumento salarial debe ser del 10% si el empleado tiene más de 30
+años o del 5% si tiene menos de 30 años.
+
 
 ## Estructura de Carpetas
 
@@ -17,7 +19,7 @@ Ellas son:
 
     Estos paquetes son:
   
-    + *Entidades* : Este paquete almacena la clase *`'Cuenta'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+    + *Entidades* : Este paquete almacena la clase *`'Empleado'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
