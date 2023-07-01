@@ -1,18 +1,28 @@
-## Getting Started
+## Ejercicio Extra Nº 5
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crea una clase "Empleado" que tenga atributos como "nombre", "edad" y
+"salario". Luego, crea un método "calcular_aumento" que calcule el
+aumento salarial de un empleado en función de su edad y salario actual.
+El aumento salarial debe ser del 10% si el empleado tiene más de 30
+años o del 5% si tiene menos de 30 años.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estructura de Carpetas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-## Dependency Management
+    Estos paquetes son:
+  
+    + *Entidades* : Este paquete almacena la clase *`'Empleado'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
