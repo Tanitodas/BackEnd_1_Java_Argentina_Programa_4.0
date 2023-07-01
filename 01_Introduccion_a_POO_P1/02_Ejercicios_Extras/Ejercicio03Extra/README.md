@@ -1,18 +1,31 @@
-## Getting Started
+## Ejercicio Extra Nº 3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crea una clase "Juego" que tenga un método "iniciar_juego" que permita
+a dos jugadores jugar un juego de adivinanza de números. El primer
+jugador elige un número y el segundo jugador intenta adivinarlo. El
+segundo jugador tiene un número limitado de intentos y recibe una pista
+de "más alto" o "más bajo" después de cada intento. El juego termina
+cuando el segundo jugador adivina el número o se queda sin intentos.
+Registra el número de intentos necesarios para adivinar el número y el
+número de veces que cada jugador ha ganado.
 
-The workspace contains two folders by default, where:
+## Estructura de Carpetas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Libro'`* y ver su resultado por consola.
 
-## Dependency Management
+    + *Entidades* : Este paquete almacena la clase *`'Cancion'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
