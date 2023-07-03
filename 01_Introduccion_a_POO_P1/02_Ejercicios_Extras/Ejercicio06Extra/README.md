@@ -1,18 +1,26 @@
-## Getting Started
+## Ejercicio Extra Nº 6
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Crea una clase "Rectángulo" que tenga atributos "lado1" y "lado2" y un
+método "calcular_area" que calcule y devuelva el área del rectángulo.
+Luego crea un objeto "rectangulo1" de la clase "Rectángulo" con lados
+de 4 y 6 y imprime el área del rectángulo.
 
-The workspace contains two folders by default, where:
+## Estructura de Carpetas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    Estos paquetes son:
+  
+    + *Entidades* : Este paquete almacena la clase *`'Rectangulo'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
 
-## Dependency Management
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
