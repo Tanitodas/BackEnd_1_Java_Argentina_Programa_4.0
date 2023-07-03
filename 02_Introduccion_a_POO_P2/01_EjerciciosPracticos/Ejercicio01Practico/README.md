@@ -1,18 +1,39 @@
-## Getting Started
+## Ejercicio Extra Nº 6
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Realizar una clase llamada Cuenta (bancaria) que debe tener como mínimo los
+atributos: numeroCuenta (entero), el DNI del cliente (entero largo), el saldo actual. Las
+operaciones asociadas a dicha clase son:
 
-The workspace contains two folders by default, where:
+ • Constructor por defecto y constructor con DNI, saldo, número de cuenta e interés.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+ • Agregar los métodos getters y setters correspondientes.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ • Metodo para crear un objeto Cuenta, pidiéndole los datos al usuario.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+ • Método ingresar(double ingreso): el método recibe una cantidad de dinero a ingresar y se la sumara a saldo actual.
+ 
+ • Método retirar(double retiro): el método recibe una cantidad de dinero a retirar y
+   se la restará al saldo actual. Si la cuenta no tiene la cantidad de dinero a retirar, se
+   pondrá el saldo actual en 0.
 
-## Dependency Management
+ • Método extraccionRapida(): le permitirá sacar solo un 20% de su saldo. Validar que el usuario no saque más del 20%.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ • Método consultarSaldo(): permitirá consultar el saldo disponible en la cuenta.
+ 
+ • Método consultarDatos(): permitirá mostrar todos los datos de la cuenta
+
+## Estructura de Carpetas
+
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
+
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
+
+    Estos paquetes son:
+  
+    + *Entidades* : Este paquete almacena la clase *`'Rectangulo'`* la cual nos da la estructura para los objetos de su mismo tipo y ademas los metodos que utilizaremos con ellos.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
