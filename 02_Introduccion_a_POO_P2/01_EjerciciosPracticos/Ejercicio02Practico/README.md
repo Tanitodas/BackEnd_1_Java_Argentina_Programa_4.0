@@ -1,18 +1,41 @@
-## Getting Started
+## Ejercicio Nº 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Programa Nespresso. Desarrolle una clase Cafetera con los atributos
+capacidadMaxima (la cantidad máxima de café que puede contener la cafetera) y
+cantidadActual (la cantidad actual de café que hay en la cafetera). Implemente, al
+menos, los siguientes métodos:
 
-The workspace contains two folders by default, where:
+• Constructor predeterminado o vacío.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+• Constructor con la capacidad máxima y la cantidad actual.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+• Métodos getters y setters.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+• Método `llenarCafetera()`: hace que la cantidad actual sea igual a la capacidad
+  máxima.
 
-## Dependency Management
+• Método `servirTaza(int)`: se pide el tamaño de una taza vacía, el método recibe el
+  tamaño de la taza y simula la acción de servir la taza con la capacidad indicada. Si la
+  cantidad actual de café “no alcanza” para llenar la taza, se sirve lo que quede. El
+  método le informará al usuario si se llenó o no la taza, y de no haberse llenado en
+  cuanto quedó la taza.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+• Método `vaciarCafetera()`: pone la cantidad de café actual en cero.
+
+• Método `agregarCafe(int)`: se le pide al usuario una cantidad de café, el método lo
+  recibe y se añade a la cafetera la cantidad de café indicada.
+
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
+
+    Estos paquetes son:
+  
+ + *Aplicacion* : Este paquete almacena la clase *`'Main'`* en donde ponemos a prueba los diferentes metodos de la clase *`'CafeteraService'`* y ver su resultado por consola..
+  
+ + *Entidades* : Este paquete almacena la clase *`'CafeteraClass'`* la cual nos da la estructura para los objetos de su mismo tipo.
+  
+    + *Servicio* :  En este paquete se almacena la clase *`'CafeteraService'`*. La cual esta destinada a contener los metodos personalizados que utilizaremos sobre los objetos de la clase *`'CafeteraClass'`*
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
