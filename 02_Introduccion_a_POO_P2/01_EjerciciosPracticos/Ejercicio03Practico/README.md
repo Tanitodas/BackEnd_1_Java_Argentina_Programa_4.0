@@ -49,9 +49,9 @@ cuantos menores.
   
  + *Aplicacion* : Este paquete almacena la clase *`'Main'`* en donde ponemos a prueba los diferentes metodos de la clase *`'CafeteraService'`* y ver su resultado por consola..
   
- + *Entidades* : Este paquete almacena la clase *`'CafeteraClass'`* la cual nos da la estructura para los objetos de su mismo tipo.
+ + *Entidades* : Este paquete almacena la clase *`'PersonaClass'`* la cual nos da la estructura para los objetos de su mismo tipo.
   
-    + *Servicio* :  En este paquete se almacena la clase *`'CafeteraService'`*. La cual esta destinada a contener los metodos personalizados que utilizaremos sobre los objetos de la clase *`'CafeteraClass'`*
+    + *Servicio* :  En este paquete se almacena la clase *`'PersonaService'`*. La cual esta destinada a contener los metodos personalizados que utilizaremos sobre los objetos de la clase *`'PersonaClass'`*
 
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
