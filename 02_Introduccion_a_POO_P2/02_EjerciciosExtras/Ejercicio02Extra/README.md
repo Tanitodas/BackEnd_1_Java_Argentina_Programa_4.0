@@ -1,18 +1,70 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## Ejercicio Extra Nº 1:
 
-The workspace contains two folders by default, where:
+### *Enunciado:*
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Dígito Verificador. Crear una clase NIF que se usará para mantener DNIs
+con su correspondiente letra (NIF). Los atributos serán el número de DNI
+(entero largo) y la letra (String o char) que le corresponde.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+En NIFService se dispondrá de los siguientes métodos:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+a) Métodos getters y setters para el número de DNI y la letra.
 
-## Dependency Management
+b) Método crearNif(): le pide al usuario el DNI y con ese DNI calcula la
+letra que le corresponderá. Una vez calculado, le asigna la letra que
+le corresponde según.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+c) Método mostrar(): que nos permita mostrar el NIF (ocho dígitos, un
+guion y la letra en mayúscula; por ejemplo: 00395469՞FՅ.
+
+La letra correspondiente al dígito verificador se calculará a traves de un
+método que funciona de la siguiente manera: Para calcular la letra se
+toma el resto de dividir el número de DNI por 23 (el resultado debe ser
+un número entre 0 y 22Յ. El método debe buscar en un array (vector) de
+caracteres la posición que corresponda al resto de la división para
+obtener la letra correspondiente. La tabla de caracteres es la siguiente:
+
+0 T
+1 R
+2 W
+3 A
+4 G
+5 M
+6 Y
+7 F
+8 P
+9 D
+10 X
+11 B
+12 N
+13 J
+14 Z
+15 S
+16 Q
+17 V
+18 H
+19 L
+20 C
+21 K
+22 E
+
+### *Estructura de Carpetas:*
+
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
+
+    Estos paquetes son:
+  
+ + *Aplicacion* : Este paquete almacena la clase *`'Main'`* en donde ponemos a prueba los diferentes metodos de la clase *`'NIFService'`* y ver su resultado por consola..
+  
+ + *Entidades* : Este paquete almacena la clase *`'NIFClass'`* la cual nos da la estructura para los objetos de su mismo tipo.
+  
+    + *Servicio* :  En este paquete se almacena la clase *`'NIFService'`*. La cual esta destinada a contener los metodos personalizados que utilizaremos sobre los objetos de la clase *`'NIFClass'`*
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
