@@ -4,7 +4,7 @@
 
 Crear la clase “AutobúsServicio”, la misma contendrá los siguientes métodos:
 
-+ Método para `crear un Autobús`: se pedirá al usuario que ingrese los datos.
++ Método `crearAutobús`: se pedirá al usuario que ingrese los datos.
 
 + Método `inicioRecorrido(int cantidad)`, recibirá por parámetro la cantidad de personas que suben al
   autobús en el inicio del recorrido. La misma no debe superar la capacidad máxima del autobús.
