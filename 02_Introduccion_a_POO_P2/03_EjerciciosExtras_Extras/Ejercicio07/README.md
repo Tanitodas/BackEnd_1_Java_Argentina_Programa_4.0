@@ -2,6 +2,9 @@
 
 ### *Enunciado:*
 
+Crear la clase “Autobús” con los siguientes atributos:  identificación, capacidad máxima de pasajeros,
+capacidad actual de pasajeros y cantidad de paradas. Luego agregar constructores, setters y getters.
+
 Crear la clase “AutobúsServicio”, la misma contendrá los siguientes métodos:
 
 + Método `crearAutobús`: se pedirá al usuario que ingrese los datos.
