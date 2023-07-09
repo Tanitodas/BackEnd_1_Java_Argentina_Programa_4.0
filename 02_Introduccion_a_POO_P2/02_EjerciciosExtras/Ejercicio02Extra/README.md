@@ -10,13 +10,13 @@ con su correspondiente letra (NIF). Los atributos serán el número de DNI
 
 En NIFService se dispondrá de los siguientes métodos:
 
-a) Métodos getters y setters para el número de DNI y la letra.
++ a) Métodos getters y setters para el número de DNI y la letra.
 
-b) Método crearNif(): le pide al usuario el DNI y con ese DNI calcula la
++ b) `Método crearNif()`: le pide al usuario el DNI y con ese DNI calcula la
 letra que le corresponderá. Una vez calculado, le asigna la letra que
 le corresponde según.
 
-c) Método mostrar(): que nos permita mostrar el NIF (ocho dígitos, un
++ c) `Método mostrar()`: que nos permita mostrar el NIF (ocho dígitos, un
 guion y la letra en mayúscula; por ejemplo: 00395469՞FՅ.
 
 La letra correspondiente al dígito verificador se calculará a traves de un
