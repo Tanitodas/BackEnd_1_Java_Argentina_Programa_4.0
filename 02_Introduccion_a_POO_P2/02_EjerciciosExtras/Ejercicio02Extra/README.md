@@ -1,5 +1,3 @@
-
-
 ## Ejercicio Extra Nº 1:
 
 ### *Enunciado:*
