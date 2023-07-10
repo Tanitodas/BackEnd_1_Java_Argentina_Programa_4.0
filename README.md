@@ -27,8 +27,6 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
   <img src="https://i.postimg.cc/4yT4DXP2/ARGENTINA-PROGRAMA-4-0.png" />
 </p>
 
-[![ARGENTINA-PROGRAMA-4-0.png](https://i.postimg.cc/4yT4DXP2/ARGENTINA-PROGRAMA-4-0.png)](https://postimg.cc/k6fd83kW)
-
 ## Estructura de Carpetas 🗂 🗂
 
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
