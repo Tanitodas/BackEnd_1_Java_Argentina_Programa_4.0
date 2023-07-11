@@ -1,4 +1,4 @@
-## Ejercicio Nº 1
+### Ejercicio Nº 1
 ----
 ### *Enunciado:*
 <p> 
@@ -26,7 +26,7 @@ Crear una clase 'CadenaServicio' en el paquete servicios que implemente los sigu
 7. Método *'contiene' (String letra)*, deberá comprobar si la frase contiene una letra que ingresa el usuario y devuelve verdadero si la contiene y falso si no.
 
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
