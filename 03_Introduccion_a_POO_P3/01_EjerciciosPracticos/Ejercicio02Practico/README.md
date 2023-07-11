@@ -18,7 +18,7 @@ Crear una clase 'ParDeNumerosService', en el paquete Servicios, que deberá adem
 4. Método *'calcularRaiz'* para calcular la raíz cuadrada del menor de los dos valores. Antes de calcular la raíz cuadrada se debe obtener el valor absoluto del numero.
 
 ---
-## ***Estructura de Carpetas***
+### ***Estructura de Carpetas***
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
