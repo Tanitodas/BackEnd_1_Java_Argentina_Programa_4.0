@@ -46,3 +46,5 @@ Crear la clase “AutobúsServicio”, la misma contendrá los siguientes métod
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
 ---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
