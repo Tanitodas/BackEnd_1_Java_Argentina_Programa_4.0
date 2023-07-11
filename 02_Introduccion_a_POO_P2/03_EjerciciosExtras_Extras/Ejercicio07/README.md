@@ -30,7 +30,7 @@ Crear la clase “AutobúsServicio”, la misma contendrá los siguientes métod
   Si el número de parada es distinto al número de inicio y de finalización, deben bajar los pasajeros indicados.
 
 
-### *Estructura de Carpetas:*
+## *Estructura de Carpetas:*
 
 + *`'src'`*:
     <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
