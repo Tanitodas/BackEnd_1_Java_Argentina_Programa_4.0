@@ -1,10 +1,5 @@
-h1 {
-  font-size: 2.6rem;
-  text-transform: capitalize;
-}
+## Ejercicio Nº 1:
 
-h1 Ejercicio Nº 1:
-----
 ### *Enunciado:*
 <p> 
 Realizar una clase llamada 'Cadena', en el paquete de entidades, que tenga como atributos una frase (String) y su longitud. 
