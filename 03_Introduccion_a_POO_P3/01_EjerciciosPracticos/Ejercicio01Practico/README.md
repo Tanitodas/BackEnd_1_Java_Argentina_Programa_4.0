@@ -1,4 +1,10 @@
-* Ejercicio Nº 1:*
+h1 {
+
+Ejercicio Nº 1:
+  font-size: 2.6rem;
+  text-transform: capitalize;
+}
+
 ----
 ### *Enunciado:*
 <p> 
