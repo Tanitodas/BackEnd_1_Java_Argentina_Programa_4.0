@@ -17,7 +17,7 @@ constructor. Luego, las operaciones que se podrán realizar son las siguientes:
 
 Nota: Formula ecuación 2do grado: (-b±√((b^2)-(4*a*c)))/(2*a) Solo varia el signo delante de -b
 
-### *Estructura de Carpetas:*
+## *Estructura de Carpetas:*
 
 + *`'src'`*:
     <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
