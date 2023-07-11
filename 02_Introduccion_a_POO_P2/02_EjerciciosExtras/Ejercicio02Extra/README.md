@@ -48,7 +48,7 @@ obtener la letra correspondiente. La tabla de caracteres es la siguiente:
 21 K
 22 E
 
-### *Estructura de Carpetas:*
+## *Estructura de Carpetas:*
 
 + *`'src'`*:
     <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
