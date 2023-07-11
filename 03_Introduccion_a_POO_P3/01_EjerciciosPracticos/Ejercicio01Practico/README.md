@@ -1,10 +1,9 @@
 h1 {
-
-Ejercicio Nº 1:
   font-size: 2.6rem;
   text-transform: capitalize;
 }
 
+h1 Ejercicio Nº 1:
 ----
 ### *Enunciado:*
 <p> 
