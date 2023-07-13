@@ -1,5 +1,5 @@
 ## Ejercicio Nº 4
-----
+
 ### *Enunciado:*
 <p> 
 Vamos a usar la clase Date que ya existe en Java. Crearemos la clase
@@ -22,9 +22,7 @@ Ejemplo:
 *NOTA* : Si necesitan acá tienen más información de la clase Date: [Documentacion Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)
 
 ---
-
-## Estructura de Carpetas
-
+### Estructura de Carpetas
 ---
 
 El espacio de trabajo contiene dos carpetas por defecto.
