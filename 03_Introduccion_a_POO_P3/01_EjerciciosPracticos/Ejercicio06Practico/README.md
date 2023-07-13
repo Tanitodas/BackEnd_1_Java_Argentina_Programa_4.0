@@ -1,5 +1,5 @@
 ## Ejercicio Nº 6
-----
+
 ### *Enunciado:*
 <p> 
 Un profesor particular está dando cursos para grupos de cinco alumnos y necesita un programa para organizar la información de cada curso.
@@ -26,7 +26,7 @@ repetición que se ingrese el nombre de cada alumno.
 
 6. Método *'calcularGananciaSemanal()'* : este método se encarga de calcular la ganancia en una semana por curso. Para ello, se deben multiplicar la cantidad de horas por día, el precio por hora, la cantidad de alumnos y la cantidad de días a la semana que se repite el encuentro.
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
