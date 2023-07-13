@@ -1,5 +1,5 @@
 ## Ejercicio Nº 5
-----
+
 ### *Enunciado:*
 <p> 
 Implemente la clase Persona en el paquete entidades. Una persona tiene un 'nombre' y una 'fecha de nacimiento' (Tipo Date), constructor vacío, constructor parametrizado, get y set. 
@@ -16,7 +16,7 @@ Crear una clase PersonaService, en el paquete servicio, con los siguientes méto
 4. Método *'mostrarPersona'* que muestra la información de la persona deseada
 
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
