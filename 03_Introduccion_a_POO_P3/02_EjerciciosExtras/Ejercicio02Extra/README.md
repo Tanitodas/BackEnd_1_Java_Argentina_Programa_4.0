@@ -1,5 +1,5 @@
 ## Ejercicio Nº 2 (Extra)
-----
+
 ### *Enunciado:*
 
 Juego Ahorcado: 
@@ -64,7 +64,7 @@ Mensaje: Lo sentimos, no hay más oportunidades
 ```
 
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
