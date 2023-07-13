@@ -1,5 +1,5 @@
 ## Ejercicio Nº 3 :
-----
+
 ### *Enunciado:*
 <p> 
 Crear en el main dos arreglos. El arreglo A de 50 números reales y el arreglo B de 20 números reales. 
@@ -18,7 +18,7 @@ Crear la clase ArregloService, en el paquete servicio, con los siguientes métod
 En el `main` nuevamente: inicializar A, mostrar A, ordenar A, inicializar B, mostrar A y B.
 
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
