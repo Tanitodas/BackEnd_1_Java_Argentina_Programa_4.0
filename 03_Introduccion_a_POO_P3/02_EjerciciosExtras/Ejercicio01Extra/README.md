@@ -1,5 +1,5 @@
 ## Ejercicio Nº 1 (Extra)
-----
+
 ### *Enunciado:*
 
 Crea una clase en Java donde declares una variable de tipo array de *Strings* que contenga los doce meses del año, en minúsculas.
@@ -25,7 +25,7 @@ agosto
  ```
 
 ---
-## Estructura de Carpetas
+### Estructura de Carpetas
 ---
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
