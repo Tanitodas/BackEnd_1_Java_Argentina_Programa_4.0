@@ -24,7 +24,7 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
 *Mas especificamente, en este repositorio almaceno los ejercicios corresponientes a **BackEnd 1**, tanto su enunciado como la resolucion particular a la que llegue*.
 
 <p align="center">
-  <img src="https://i.postimg.cc/4yT4DXP2/ARGENTINA-PROGRAMA-4-0.png" />
+  <img src="https://i.postimg.cc/4yT4DXP2/ARGENTINA-PROGRAMA-4-0.png" alt = "Recorrido Bootcamp" />
 </p>
 
 ## Estructura de Carpetas 🗂 🗂
